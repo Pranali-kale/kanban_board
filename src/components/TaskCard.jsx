@@ -20,7 +20,7 @@ function TaskCard({
   return (
     <article className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition break-words">
 
-      /* Title and Priority */
+      {/* Title and Priority */}
       <div className="flex justify-between items-start gap-2 mb-3">
 
         <h3 className="font-semibold text-slate-800">
@@ -35,17 +35,17 @@ function TaskCard({
 
       </div>
 
-      /* Description */
+      {/* Description */}
       <p className="text-sm text-slate-500 mb-4">
         {task.description || "No description provided."}
       </p>
 
-      /* Due Date */
+      {/* Due Date */}
       <div className="text-xs text-slate-500 mb-4">
         Due: {task.dueDate}
       </div>
 
-      /* Change Status */
+      {/* Change Status */}
       <div className="mb-4">
 
         <label className="block text-xs font-medium text-slate-600 mb-2">
@@ -66,7 +66,7 @@ function TaskCard({
 
       </div>
 
-      /* Edit and Delete */
+      {/* Edit and Delete */}
       <div className="flex justify-end gap-4 border-t pt-3">
 
         <button

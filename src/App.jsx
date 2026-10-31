@@ -87,7 +87,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-100">
 
-      /* Navbar */
+      {/* Navbar */}
       <nav className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
 
@@ -119,7 +119,7 @@ function App() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
 
-        /* Search and Filters */
+       { /* Search and Filters */}
         <SearchFilter
           search={search}
           setSearch={setSearch}
@@ -158,7 +158,7 @@ function App() {
 
       </main>
 
-      /* Task Form */
+      {/* Task Form */}
       {showForm && (
         <TaskForm
           onAddTask={handleAddTask}

@@ -35,7 +35,7 @@ function KanbanColumn({
 
       </div>
 
-      /* Tasks */
+      {/* Tasks */}
       <div className="space-y-4">
 
         {tasks.length > 0 ? (

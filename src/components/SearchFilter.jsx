@@ -11,7 +11,7 @@ function SearchFilter({
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
-        /* Search */
+        {/* Search */}
         <input
           type="text"
           placeholder="Search tasks..."
@@ -20,7 +20,7 @@ function SearchFilter({
           className="w-full border border-slate-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500"
         />
 
-        /* Priority */
+        {/* Priority */}
         <select
           value={priorityFilter}
           onChange={(e) => setPriorityFilter(e.target.value)}
@@ -32,7 +32,7 @@ function SearchFilter({
           <option value="Low">Low</option>
         </select>
 
-        /* Status */
+        {/* Status */}
         <select
           value={statusFilter}
           onChange={(e) => setStatusFilter(e.target.value)}
